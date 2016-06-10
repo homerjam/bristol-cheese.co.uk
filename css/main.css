@@ -56,14 +56,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+    font-size: 4.1px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+}
+
 body {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    min-width: 768px;
-    min-height: 480px;
+    min-width: 76.8rem;
+    min-height: 48rem;
 }
 
 .yellow {
@@ -77,22 +87,22 @@ body {
 
 .top {
     position: absolute;
-    top: 35px;
+    top: 3.5rem;
 }
 
 .bottom {
     position: absolute;
-    bottom: 35px;
+    bottom: 3.5rem;
 }
 
 .left {
     position: absolute;
-    left: 35px;
+    left: 3.5rem;
 }
 
 .right {
     position: absolute;
-    right: 35px;
+    right: 3.5rem;
 }
 
 .center {
@@ -105,7 +115,7 @@ body {
 }
 
 .logo {
-    height: 300px;
+    height: 30rem;
     text-align: center;
 }
 
@@ -117,14 +127,14 @@ body {
     bottom: 0;
     margin: auto;
     max-width: 82%;
-    max-width: calc(100% - 70px);
+    max-width: calc(100% - 7rem);
 }
 
 .location {
     position: absolute;
-    top: -33px;
-    left: 5px;
-    height: 25px;
+    top: -3.3rem;
+    left: 0.5rem;
+    height: 2.5rem;
 }
 
 .socials ul {
@@ -138,15 +148,19 @@ body {
 }
 
 .socials li:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 2rem;
 }
 
 .socials img {
-    height: 30px;
+    height: 3rem;
 }
 
 .type {
-    height: 20px;
+    height: 2rem;
+}
+
+.type.has-descenders {
+    height: 2.7rem;
 }
 
 
