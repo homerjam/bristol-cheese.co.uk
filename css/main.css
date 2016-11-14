@@ -56,6 +56,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
 html {
     font-size: 4.1px;
 }
@@ -163,8 +171,15 @@ body {
     height: 2.7rem;
 }
 
-
-
+.credit {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    background: #465A72;
+}
 
 
 /* ==========================================================================
