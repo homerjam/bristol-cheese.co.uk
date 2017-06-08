@@ -167,6 +167,10 @@ body {
     height: 2rem;
 }
 
+.type--height-2x {
+    height: 4.7rem;
+}
+
 .type.has-descenders {
     height: 2.7rem;
 }
